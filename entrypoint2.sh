@@ -23,6 +23,5 @@ cat << "EOF"
            ()`     
 EOF
 echo "Hello $1"
-for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
 time=$(date)
 echo "time=$time" >> $GITHUB_OUTPUT
