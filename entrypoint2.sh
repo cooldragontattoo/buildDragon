@@ -16,6 +16,6 @@ cat << "EOF"
  `              V                '
 EOF
 
-echo "Hello $1"
+echo "The dragon is $1"
 time=$(date)
 echo "time=$time" >> $GITHUB_OUTPUT
